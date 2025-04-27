@@ -5,7 +5,7 @@ async function fetchTwitchDataGQL(vodID) {
             "query": "query { video(id: \"" + vodID + "\") { broadcastType, createdAt, seekPreviewsURL, owner { login } }}"
         }),
         headers: {
-            'Client-Id': 'mimne78kx3ncx6brgo4mv6wki5h1ko',
+            'Client-Id': 'imne78kx3ncx6brgo4mv6wki5h1ko',
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         }
